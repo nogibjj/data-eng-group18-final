@@ -7,7 +7,11 @@ import pandas as pd
 # Initiate the FastAPI app
 app = FastAPI()
 
-df = pd.read_csv("cost_of_living.csv")
+df = pd.read_csv("cost_of_living_cleaned.csv")
+
+def cost_of_living(city, country): 
+    
+
 
 
 @app.get("/")
