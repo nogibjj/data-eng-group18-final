@@ -4,6 +4,9 @@
 
 This project aims to use FastAPI's Swagger UI documentation system to help users look up cost of living incidices in cities across the globe. 
 
+## Project Diagram
+
+![final_diagram](https://user-images.githubusercontent.com/60377132/208192868-9116d6cb-de85-4a82-8357-7e75cd645c24.png)
 
 ## Data Source
 
