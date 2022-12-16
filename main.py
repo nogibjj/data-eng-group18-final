@@ -14,7 +14,7 @@ df = pd.read_csv("cost_of_living_cleaned.csv")
 async def root():
     """Define Root Path"""
     return {
-        "Welcome!": "Use this API application to get updated cost-of-living data in over cities globally."
+        "Welcome!": "Use this API application to get updated cost-of-living data in almost 5,000 cities globally."
     }
 
 
