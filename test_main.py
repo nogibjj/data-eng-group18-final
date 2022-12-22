@@ -15,7 +15,7 @@ def test_df_ingestion():
 
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-from main import app
+from .main import app
 
 
 @app.get("/test")
