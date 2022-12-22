@@ -14,7 +14,7 @@ def test_df_ingestion():
 
 
 from fastapi import FastAPI
-from fastapi import httpx
+import httpx
 from fastapi.testclient import TestClient
 from .main import app
 
@@ -22,7 +22,6 @@ from .main import app
 @app.get("/test")
 async def test_read_main():
     return {"msg": "Test message"}
-
 
 client = TestClient(app)
 
