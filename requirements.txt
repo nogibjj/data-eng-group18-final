@@ -6,3 +6,4 @@ pylint
 black
 pytest-cov
 jupyter
+httpx
