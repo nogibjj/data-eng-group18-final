@@ -16,6 +16,6 @@ deploy:
 	docker build -t test2 .
 	docker tag test2:latest public.ecr.aws/b3t7f7d0/test2:latest
 	docker push public.ecr.aws/b3t7f7d0/test2:latest
-	
+
 all:
-	make install test format lint
+	make install test format lint deploy
