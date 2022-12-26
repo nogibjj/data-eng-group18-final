@@ -42,3 +42,10 @@ docker run -p 8080:8080 genesisqu/cost-of-living-calculator:lastest
 ## Testing
 
 Testing was conducted on API Endpoints using FastAPI's TestClient object using the httpx library and Starlette ASGI framework/ toolkit. Starlette allows for pytest (with is utilized in our GitHub Action's CI/CD) to be used directly with FastAPI. All testing is contained in the test_main.py file. 
+
+## CI/CD
+
+This project is connected to AWS, using Codebuild and AppRunner. 
+
+<img width="1440" alt="Screenshot 2022-12-26 at 1 28 59 AM" src="https://user-images.githubusercontent.com/110945807/209512122-38d4f4fd-79e9-4a01-90e3-1e86c5e081c3.png">
+<img width="1440" alt="Screenshot 2022-12-26 at 1 29 34 AM" src="https://user-images.githubusercontent.com/110945807/209512127-091c901a-2b10-4d9f-a70e-d5bd4608ad6c.png">
